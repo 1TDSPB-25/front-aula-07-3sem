@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-inline: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+}
+
+main, footer{
+    margin-top: 2rem;
+    padding-inline: 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a{
+    color: darkviolet;
+    text-decoration: none;
+}
+
+
+nav ul li::after{
+    content: "|";
+}
+
+
+
+
+main h2{
+    margin-block: 1rem;
+
+}
